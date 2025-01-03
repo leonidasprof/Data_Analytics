@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.image("logo.png", caption="Leônidas Business Intelligence", use_column_width='auto')
+st.image("logo.png", caption="Leônidas Business Intelligence",output_format="auto", use_container_width=True)
 
 st.title('Números de corridas da UBER em Nova York 2024')
 
