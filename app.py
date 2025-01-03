@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.image("logo.png", caption="Leônidas Business Intelligence")
+
 st.title('Números de corridas da UBER em Nova York 2024')
 
 DATE_COLUMN = 'date/time'
