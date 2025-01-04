@@ -37,7 +37,7 @@ st.bar_chart(hist_values)
 hour_to_filter = st.slider('FILTRO:  ->  .::CORRIDAS POR HORÁRIOS::.', 0, 23, 17) # minimo: 0h, maximo: 23h, horas padrão: 17h
 filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
 
-st.subheader('Mapa das corridas em %s:00' % hour_to_filter)
+st.subheader('Mapa das corridas ás %s:00' % hour_to_filter)
 st.map(filtered_data)
 
 
